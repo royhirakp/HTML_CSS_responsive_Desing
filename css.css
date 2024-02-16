@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+
+  background-color: #674bb1;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(/svg/baground.svg);
+}
+
+.bagroundimage {
+  /* background: transparent url(bagroun.svg) 0% 0% no-repeat padding-box;
+    background-image: url(baground.svg); */
+  background-size: 100%;
+  width: 85%;
+  height: 00px;
+
+  box-sizing: border-box;
+  margin: 0 auto 0 auto;
+}
+img {
+  width: 100%;
+}
+.logo {
+  padding: 42px 0 0 0;
+  width: 120px;
+  height: 41px;
+}
+
+.medil {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 438px;
+}
+section {
+  width: 50%;
+  height: 300px;
+
+  box-sizing: border-box;
+  margin: auto 0 auto 0;
+}
+h1 {
+  display: inline;
+  width: 100%;
+}
+.pop_up {
+  display: block;
+}
+.big_popup {
+  width: 100%;
+  height: 110%;
+  border: 1px solid rgb(189, 237, 16);
+  box-sizing: border-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 25px;
+}
+.top_navbar {
+  width: 100%;
+  height: 12%;
+
+  border-radius: 25px 25px 0px 0px;
+  background-color: #0a2a3a;
+}
+.searchbar_navbar {
+  width: 25%;
+  height: 50%;
+  background: #dee3e7 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2% 0 2% 9%;
+}
+.option_bar {
+  width: 6%;
+  height: 50%;
+  /* background-color: #ffffff; */
+  /* display: inline-block; */
+  float: right;
+  margin: 2% 8% 2% 0;
+}
+
+.wightline {
+  width: 100%;
+  height: 15%;
+  background-color: #f4f6f7;
+  margin: 12% 0 12% 0;
+  border-radius: 20px;
+}
+
+.contact_list {
+  width: 80%;
+  height: 70%;
+  margin: 10% auto auto auto;
+}
+
+.cotact {
+  width: 100%;
+  height: 20%;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  margin: 2% 0 2% 0;
+}
+.profilephoto {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4% 0 0;
+  background: transparent linear-gradient(180deg, #feb078 0%, #fe74aa 100%) 0%
+    0% no-repeat padding-box;
+}
+.details {
+  height: 100%;
+  width: 50%;
+
+  box-sizing: border-box;
+  display: inline-block;
+}
+.part1,
+.part2,
+.part3,
+.part4 {
+  background-color: #e1e6ea;
+  margin: 3% 0 3% 0;
+}
+.part1 {
+  height: 15%;
+  width: 25%;
+  border-radius: 10px 10px 0px 0px;
+
+  opacity: 1;
+}
+.part2 {
+  width: 100%;
+  height: 2%;
+}
+.part3 {
+  width: 90%;
+  height: 2%;
+}
+.part4 {
+  width: 80%;
+  height: 2%;
+}
+
+.contact_options {
+  /* width: 700px;
+    height: 1%; */
+  display: inline;
+
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 50%;
+}
+.smallcircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e1e6ea;
+  display: inline-block;
+  margin: 0;
+
+  position: relative;
+}
+
+.small_popup {
+  width: 39%;
+  height: 100%;
+  background-color: #ffffff;
+
+  box-sizing: border-box;
+  position: relative;
+  bottom: 47%;
+  left: 65%;
+
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 10px;
+}
+.top_navbar_smallpopup {
+  background: #0a2a3a 0% 0% no-repeat padding-box;
+  border-radius: 11px 11px 0 0;
+}
+.searchbar_navbar_smallpopup {
+  width: 60%;
+  height: 50%;
+  background: #dee3e7 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 3.5% 0 2% 9%;
+}
+#option_bar_small {
+  width: 8%;
+  height: 40%;
+  /* background-color: #ffffff; */
+  /* display: inline-block; */
+  float: right;
+  margin: 4% 8% 2% 0;
+  background-color: #0a2a3a;
+  /* border: 5px solid black; */
+}
+.wightline_small {
+  width: 100%;
+  height: 1px;
+  background-color: #dee3e7;
+  margin: 20%;
+}
+.contact_small {
+  background-color: #0a2a3a;
+  height: 12%;
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  margin: 2% 0 2% 0;
+}
+.profilephoto_small {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4% 0 0;
+  background: transparent linear-gradient(180deg, #feb078 0%, #fe74aa 100%) 0%
+    0% no-repeat padding-box;
+}
+.details_forsmall {
+  height: 100%;
+  width: 70%;
+
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  background-color: #e1e6ea;
+  margin: 3% 0 3% 0;
+}
+.part1 {
+  height: 15%;
+  width: 25%;
+  border-radius: 10px 10px 0px 0px;
+
+  opacity: 1;
+}
+.part2 {
+  width: 100%;
+  height: 2%;
+}
+.part3 {
+  width: 90%;
+  height: 2%;
+}
+.part4 {
+  width: 80%;
+  height: 2%;
+}
+
+.text {
+  padding: 5%;
+  width: 50%;
+  text-align: left;
+}
+h1 {
+  width: 30%;
+  color: #f4f6f7;
+  font: normal normal bold 30px/50px Montserrat;
+}
+p {
+  text-align: justify;
+  color: #f4f6f7;
+  font: normal normal normal 18px/25px Open Sans;
+}
+button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px;
+  border-radius: 29px;
+  height: 25%;
+  width: 32%;
+  color: #674bb1;
+  font-weight: 400;
+}
+button h4 {
+  color: #674bb1;
+  font-weight: 100;
+  padding: auto;
+  margin: 0;
+}
+footer {
+  width: 100%;
+  height: 10%;
+
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+.fb,
+.twiter,
+.insta {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  float: right;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+  }
+  .logo {
+    padding-bottom: 10%;
+  }
+  section {
+    width: 100%;
+  }
+  .medil {
+    display: inline;
+  }
+  .pup_up {
+    width: 100%;
+    display: block;
+  }
+  .big_popup {
+    width: 100%;
+    display: block;
+    height: 80%;
+  }
+  .small_popup {
+    height: 65%;
+  }
+
+  #option_bar_small {
+    position: relative;
+    top: 10%;
+  }
+  .wightline {
+    width: 10px;
+    height: 2px;
+    background-color: #dee3e7;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  button {
+    height: 15%;
+    width: 50%;
+  }
+  footer {
+    position: relative;
+    display: inline;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
